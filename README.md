@@ -1,4 +1,2 @@
 #Learning Git
-Edit above initial line.
-Test readme file.
-Edit below initial line.
+This is just a test repo to try different Git and Github related things out.
