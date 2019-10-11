@@ -1,2 +1,3 @@
 - testing what happens when it's unclear where the merge should go
+- an edit in the master branch
 - this is the last item
