@@ -19,3 +19,6 @@ Often I realise my current work would have been better in a different branch tha
 1. Stash current edits `git stash push`
 1. Switch to a different branch
 1. Unstash edits `git stash pop`
+
+## Stash current edits including untracked (new) files
+`git stash push -u`
