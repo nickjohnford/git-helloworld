@@ -22,3 +22,9 @@ Often I realise my current work would have been better in a different branch tha
 
 ## Stash current edits including untracked (new) files
 `git stash push -u`
+
+## Cherry-pick a commit from another branch and shift into the current branch
+Sometimes I can't merge one branch into another, but I still want a few commits moved over:
+1. Copy the commit hash `123abc...` from the branch that has it
+1. Switch to the branch that needs the commits moved to
+1. Move the commit to the current branch with `git cherry-pick 123abc...`
